@@ -60,3 +60,8 @@ SSLCertificateFile	/etc/letsencrypt/live/$YourDomain/cert.pem
 SSLCertificateKeyFile /etc/letsencrypt/live/$YourDomain/privkey.pem
 SSLCertificateChainFile /etc/letsencrypt/live/$YourDomain/chain.pem
 ```
+
+## For VM
+```
+Remember to forward 80 port & 443 port
+```
