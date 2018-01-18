@@ -31,7 +31,7 @@ sudo systemctl restart apache2.service
 ```
 sudo apt install letsencrypt
 
-letsencrypt certonly --webroot -w /var/www/html/ -m $YourMail@gmail.com --agree-tos --rsa-key-size 4096 -d $YourDomain
+letsencrypt certonly --webroot -w /var/www/html/ -m $YourMail --agree-tos --rsa-key-size 4096 -d $YourDomain
 
 cp ~/default-ssl.conf /etc/apache2/sites-enabled/default-ssl.conf
 cp ~/ssl.conf /etc/apache2/mods-enabled/default-ssl.conf
